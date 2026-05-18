@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ssh-llm-connect: multi-host SSH helper with readonly guard for LLM agents
-# https://github.com/<owner>/ssh-llm-connect
+# https://github.com/cskwork/ssh-llm-connect
 #
 # Usage:
 #   connect.sh <host>                          # show usage

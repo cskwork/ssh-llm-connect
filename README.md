@@ -20,7 +20,7 @@ It is "guardrails against honest mistakes by an AI agent." That alone is worth a
 ## Install
 
 ```bash
-git clone https://github.com/<owner>/ssh-llm-connect.git
+git clone https://github.com/cskwork/ssh-llm-connect.git
 cd ssh-llm-connect
 ./install.sh /path/to/your/project
 ```
