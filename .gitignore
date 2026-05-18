@@ -3,3 +3,4 @@ hosts/*.env
 *.swp
 *.swo
 .DS_Store
+.release-notes-*.md
