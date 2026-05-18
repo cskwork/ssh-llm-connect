@@ -1,0 +1,26 @@
+{
+  "_comment": "Merge with your existing .claude/settings.json. Replace <PROJECT> with your project root absolute path.",
+  "permissions": {
+    "deny": [
+      "Bash(./ssh/connect.sh --shell*)",
+      "Bash(./ssh/connect.sh --allow-write*)",
+      "Bash(ssh/connect.sh --shell*)",
+      "Bash(ssh/connect.sh --allow-write*)",
+      "Bash(bash ./ssh/connect.sh --shell*)",
+      "Bash(bash ./ssh/connect.sh --allow-write*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "<PROJECT>/.claude/hooks/ssh-guard.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
