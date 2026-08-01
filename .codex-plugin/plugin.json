@@ -1,7 +1,7 @@
 {
   "name": "ssh-llm-connect",
   "version": "0.1.0",
-  "description": "Safe SSH for an LLM coding agent - per-host .env (no inline credentials), a read-only command guard, and a Claude Code...",
+  "description": "ssh-llm-connect \u2014 safe SSH for agents to read remote logs. Use when: \"ssh to prod\", \"read logs\", \"\uc11c\ubc84 \ubd10\uc57c \ud568\".",
   "author": {
     "name": "cskwork",
     "url": "https://github.com/cskwork"
@@ -18,8 +18,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Ssh Llm Connect",
-    "shortDescription": "Safe SSH for an LLM coding agent - per-host .env (no inline credentials), a read",
-    "longDescription": "Safe SSH for an LLM coding agent - per-host .env (no inline credentials), a read-only command guard, and a Claude Code...",
+    "shortDescription": "ssh-llm-connect \u2014 safe SSH for agents to read remote logs. Use when: \"ssh to",
+    "longDescription": "ssh-llm-connect \u2014 safe SSH for agents to read remote logs. Use when: \"ssh to prod\", \"read logs\", \"\uc11c\ubc84 \ubd10\uc57c \ud568\".",
     "developerName": "cskwork",
     "category": "Productivity",
     "capabilities": [

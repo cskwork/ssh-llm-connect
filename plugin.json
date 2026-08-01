@@ -1,4 +1,4 @@
 {
   "name": "ssh-llm-connect",
-  "description": "Safe SSH for an LLM coding agent - per-host .env (no inline credentials), a read-only command guard, and a Claude Code..."
+  "description": "ssh-llm-connect \u2014 safe SSH for agents to read remote logs. Use when: \"ssh to prod\", \"read logs\", \"\uc11c\ubc84 \ubd10\uc57c \ud568\"."
 }
