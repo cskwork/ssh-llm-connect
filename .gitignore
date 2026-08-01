@@ -1,6 +1,6 @@
-hosts/*.env
-!hosts/_template.env
-*.swp
-*.swo
 .DS_Store
-.release-notes-*.md
+__pycache__/
+*.py[cod]
+evals/results/
+node_modules/
+dist/

@@ -1,0 +1,34 @@
+{
+  "name": "ssh-llm-connect",
+  "version": "0.1.0",
+  "description": "Safe SSH for an LLM coding agent - per-host .env (no inline credentials), a read-only command guard, and a Claude Code PreToolUse hook the agent cannot bypass. Use when an agent must read logs or status on a remote host over SSH without destructive commands or leaked credentials; e.g. \"ssh to prod\", \"read logs on remote\", \"에이전트가 서버 봐야 함\", or when this repo is installed in the project.",
+  "author": {
+    "name": "cskwork",
+    "url": "https://github.com/cskwork"
+  },
+  "homepage": "https://github.com/cskwork/ssh-llm-connect",
+  "repository": "https://github.com/cskwork/ssh-llm-connect",
+  "license": "MIT",
+  "keywords": [
+    "ssh-llm-connect",
+    "skill",
+    "claude-code",
+    "codex"
+  ],
+  "skills": "./",
+  "interface": {
+    "displayName": "Ssh Llm Connect",
+    "shortDescription": "Safe SSH for an LLM coding agent - per-host .env (no inline credentials), a read",
+    "longDescription": "Safe SSH for an LLM coding agent - per-host .env (no inline credentials), a read-only command guard, and a Claude Code PreToolUse hook the agent cannot bypass. Use when an agent must read logs or status on a remote host over SSH without destructive commands or leaked credentials; e.g. \"ssh to prod\", \"read logs on remote\", \"에이전트가 서버 봐야 함\", or when this repo is installed in the project.",
+    "developerName": "cskwork",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/cskwork/ssh-llm-connect",
+    "defaultPrompt": [
+      "Use ssh-llm-connect for this task."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
