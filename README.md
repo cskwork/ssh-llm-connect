@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" width="120" alt="logo" /></p>
+
 # ssh-llm-connect
 
 Safe SSH for LLM coding agents. Multi-host helper + read-only command guard + harness-enforced hook that prevents the agent from bypassing it.
