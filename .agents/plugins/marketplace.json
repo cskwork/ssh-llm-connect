@@ -1,0 +1,21 @@
+{
+  "name": "ssh-llm-connect",
+  "interface": {
+    "displayName": "Ssh Llm Connect"
+  },
+  "plugins": [
+    {
+      "name": "ssh-llm-connect",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cskwork/ssh-llm-connect.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
