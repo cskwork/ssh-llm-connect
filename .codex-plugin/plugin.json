@@ -15,7 +15,7 @@
     "claude-code",
     "codex"
   ],
-  "skills": "./",
+  "skills": "./skills/",
   "interface": {
     "displayName": "Ssh Llm Connect",
     "shortDescription": "Safe SSH for an LLM coding agent - per-host .env (no inline credentials), a read",
