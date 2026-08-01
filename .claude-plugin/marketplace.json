@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "ssh-llm-connect",
+  "description": "Safe SSH for an LLM coding agent - per-host .env (no inline credentials), a read-only command guard, and a Claude Code P",
+  "owner": {
+    "name": "cskwork"
+  },
+  "plugins": [
+    {
+      "name": "ssh-llm-connect",
+      "description": "Safe SSH for an LLM coding agent - per-host .env (no inline credentials), a read-only command guard, and a Claude Code P",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
