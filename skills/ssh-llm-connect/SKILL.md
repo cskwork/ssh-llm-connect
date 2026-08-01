@@ -1,6 +1,6 @@
 ---
 name: ssh-llm-connect
-description: Safe SSH for an LLM coding agent - per-host .env (no inline credentials), a read-only command guard, and a Claude Code PreToolUse hook the agent cannot bypass. Use when an agent must read logs or status on a remote host over SSH without destructive commands or leaked credentials; e.g. "ssh to prod", "read logs on remote", "에이전트가 서버 봐야 함", or when this repo is installed in the project.
+description: ssh-llm-connect — safe SSH for agents to read remote logs. Use when: "ssh to prod", "read logs", "서버 봐야 함".
 argument-hint: "<host-slug> \"<read-only shell command>\""
 ---
 
