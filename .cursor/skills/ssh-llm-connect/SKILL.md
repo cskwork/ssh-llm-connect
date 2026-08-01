@@ -1,6 +1,7 @@
 ---
 name: ssh-llm-connect
-description: ssh-llm-connect — safe SSH for agents to read remote logs. Use when: "ssh to prod", "read logs", "서버 봐야 함".
+description: 'ssh-llm-connect — safe SSH for agents to read remote logs. Use when: "ssh to prod", "read logs", "서버 봐야 함".'
+
 ---
 
 
