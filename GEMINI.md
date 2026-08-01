@@ -1,4 +1,4 @@
 # ssh-llm-connect
 
-@./SKILL.md
+@./skills/ssh-llm-connect/SKILL.md
 
