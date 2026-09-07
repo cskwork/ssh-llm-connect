@@ -1,13 +1,9 @@
 ---
 name: ssh-llm-connect
-description: 'ssh-llm-connect — safe SSH for agents to read remote logs. Use when: "ssh to prod", "read the server logs", "서버 봐야 함", or when a remote host must stay read-only.'
+description: Use the guarded ssh/connect.sh wrapper to inspect remote logs, processes, metrics, or configuration when the agent must not issue remote writes.
 ---
 
 # ssh-llm-connect
-
-## When to use
-- Agent needs to read logs / ps / metrics / config on a remote host
-- Remote must stay read-only (production guardrails)
 
 ## Before the first remote command
 Confirm the guard is installed and registered:
